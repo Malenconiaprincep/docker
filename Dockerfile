@@ -1,4 +1,5 @@
-FORM readytalk/nodejs
+FROM readytalk/nodejs
+
 
 WORKDIR /app
 ADD package.json /app/
