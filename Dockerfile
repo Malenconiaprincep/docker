@@ -5,5 +5,4 @@ WORKDIR /
 RUN mkdir data
 WORKDIR /data
 RUN mkdir code
-ADD app /data/code
 RUN ["/bin/bash", "-c", "echo hello"]
